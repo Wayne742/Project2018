@@ -23,4 +23,5 @@ My work on the data set. What I did with the data, e.g sum, mean, median, etc.
 ## References.
 https://en.wikipedia.org/wiki/Iris_flower_data_set
 https://www.britannica.com/biography/Ronald-Aylmer-Fisher
+https://www.techopedia.com/definition/32880/iris-flower-data-set
 
