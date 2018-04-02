@@ -20,25 +20,25 @@ computer sciences including use in data minng and analytics.
 My work on the data set. What I did with the data, e.g sum, mean, median, etc.
 My analysis of the data set is quite rudimentary. I have chosen to apply the following mathmatical operation;
 
-###Sum.
+### Sum.
 I have summed each column of numbers. For example the sum of the Sepal Lengths is....
 
-###Count.
+### Count.
 Counted the total number of lines in hte data set.
 
-###Mean.
+### Mean.
 The mean is the most commonly used mathimatical measure of average (University of Leicester, 2018).
 
-###Median.
+### Median.
 The median refers to the middle value in the dataset, when the values are arranged in order of 
 magnitude (University of Leicester, 2018).
 
-###Mode.
+### Mode.
 The mode is the value that occurs with the greatest frequency in a dataest (University of Leicester, 2018)..
 
-###Find the Highest number in each column.
+### Find the Highest number in each column.
 
-###Find the lowest number in each column.
+### Find the lowest number in each column.
 
 ## Conclusions.
 What are the real world applications for similar types of analysis? 
