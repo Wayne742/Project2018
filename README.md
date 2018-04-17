@@ -6,6 +6,42 @@ Wayne Reilly.
 What is data analytics and why its important?
 
 ## Part 1.
+This README is in two distinct sections. The first one is primarily concerning my approach, project plan and discussion on the data set including analysis conducted by others.
+
+### Project Plan.
+This is my project plan. This has seven stages and as with most projects it is possible that this will change as I work and will not necessarialy be carried out in the order listed. Throughout the project intermittment review of progress and tasks outstanding will be carried out.
+
+* _Initial thoughts and Structure_ 
+This is the begining for me, I spent some time thinking about how I would aproach the project and I quickly put a structure on the README.
+
+* _Planning_ 
+At this stage I identified the key stages for the project and some of the initial task that I wouls carry out as I worked towards completion. Old school pen and paper approach prior to typing up my work.
+
+* _Break out of Tasks_
+This is my list of smaller tasks and probaby the bulk of the work.
+ * Research background information on the Data Set. And write this up.
+ * Outline the Python Programming language and the libaries I have used. 
+ * Research analysis conducted by others on the Data Set.
+ * Download the Data Set and convert to CSV.
+ * Consider ways to analyse the data.
+ * Decide on what analysis I will conduct.
+ * Start a Python file.
+ * Read the data in to the file.
+ * Write and test the scripts I want to run.
+ * Write up my Approach. 
+ * Write Methodology.
+ * Consider professional applications for similar types of analysis.
+ * References.
+
+* _Start research of data set and analysis by others_
+
+* _Work through each of the above tasks_
+
+* _Write up Introduction and Conclusions_
+
+* _Review and Edit_
+  
+
 ### Methodology / Approach.
 Discussion of the data set, its history. And it's importance in data analytics????
 ### Ronald Fisher and the Iris Flower Data Set.
