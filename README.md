@@ -11,13 +11,13 @@ This README is in two distinct sections. The first one is primarily concerning m
 ### Project Plan.
 This is my project plan. This has seven stages and as with most projects it is possible that this will change as I work and will not necessarialy be carried out in the order listed. Throughout the project intermittment review of progress and tasks outstanding will be carried out.
 
-* _Initial thoughts and Structure_ 
+* __Initial thoughts and Structure__ 
 This is the begining for me, I spent some time thinking about how I would aproach the project and I quickly put a structure on the README.
 
-* _Planning_ 
+* __Planning__ 
 At this stage I identified the key stages for the project and some of the initial task that I wouls carry out as I worked towards completion. Old school pen and paper approach prior to typing up my work.
 
-* _Break out of Tasks_
+* __Break out of Tasks__
 This is my list of smaller tasks and probaby the bulk of the work.
  * Research background information on the Data Set. And write this up.
  * Outline the Python Programming language and the libaries I have used. 
@@ -33,13 +33,13 @@ This is my list of smaller tasks and probaby the bulk of the work.
  * Consider professional applications for similar types of analysis.
  * References.
 
-* _Start research of data set and analysis by others_
+* __Start research of data set and analysis by others__
 
-* _Work through each of the above tasks_
+* __Work through each of the above tasks__
 
-* _Write up Introduction and Conclusions_
+* __Write up Introduction and Conclusions__
 
-* _Review and Edit_
+* __Review and Edit__
   
 
 ### Methodology / Approach.
