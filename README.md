@@ -48,11 +48,14 @@ This is my list of smaller tasks and probaby the bulk of the work.
 Discussion of the data set, its history. And it's importance in data analytics????
 ### Ronald Fisher and the Iris Flower Data Set.
 Ronald Fisher (1890-1962) was a British Statistician and Geneticist. He is most famous for developing methods of 
-multivariate analysis. In 1936, while Galton Professor of Eugenics at University College London he first introducted the Iris Flower Data Set in his paper "The use of multiple measurements in taxomony problems".
+multivariate analysis. He had a keen interest in genetics and applied his training in statistics to the Eugenics field including work on Charles Darmins theory on natural selection. [1]
+
+He is credited with fonding the Cambridge University Eugenics Society. In 1936, while Galton Professor of Eugenics at University College London he first introducted the Iris Flower Data Set in his paper "The use of multiple measurements in taxomony problems".[1]
 
 The data set contains 50 samples from each of the three species of Iris (Iris Setosa, Iris Virginica and Iris Versicolor).
-For each sample the length and width of the Sepals and Petals were measured. The data set is widely used across the 
-computer sciences including use in data minng and analytics.
+The data set describes particular biological characteristics of various types of Iris flower. [2] For each sample the length and width of the Sepals and Petals were measured. 
+
+The data set is widely used across the computer sciences including use in data minng and analytics.
 
 ## Part 2.
 My work on the data set. What I did with the data, e.g sum, mean, median, etc.
@@ -83,8 +86,15 @@ What are the real world applications for similar types of analysis?
 How could I apply this type of analysis to my work in procurement?
 
 ## References.
-https://en.wikipedia.org/wiki/Iris_flower_data_set
+
+[1] Encyclopaedia Briannica. Sir Ronald Alymer Fisher.
 https://www.britannica.com/biography/Ronald-Aylmer-Fisher
+
+[2] Techopedia. Iris Flower Data Set.
 https://www.techopedia.com/definition/32880/iris-flower-data-set
+
+https://en.wikipedia.org/wiki/Iris_flower_data_set
+
+
 https://www2.le.ac.uk/offices/ld/resources/numerical-data/averages
 
