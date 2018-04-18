@@ -3,13 +3,15 @@ Programming and Scripting. End of Module Project 2018.
 Wayne Reilly.
 
 # Introduction.
+This project is based on Ronald Fisher's Iris data set. The project contains research regarding the data set and some analysis of the data set using the Python programming language.
+
 What is data analytics and why its important?
 
 ## Part 1.
 This README is in two distinct sections. The first one is primarily concerning my approach, project plan and discussion on the data set including analysis conducted by others.
 
 ### Project Plan.
-This is my project plan. This has seven stages and as with most projects it is possible that this will change as I work and will not necessarialy be carried out in the order listed. Throughout the project intermittment review of progress and tasks outstanding will be carried out.
+This is my overall project plan. This has seven stages and as with most projects it is likely that it will change as I work and will not necessarialy be carried out in the order listed. Throughout the project intermittment reviews of progress and tasks outstanding will be carried out.
 
 * __Initial thoughts and Structure__ 
 This is the begining for me, I spent some time thinking about how I would aproach the project and I quickly put a structure on the README.
