@@ -17,7 +17,7 @@ This is my overall project plan. This has seven stages and as with most projects
 This is the begining for me, I spent some time thinking about how I would aproach the project and I quickly put a structure on the README.
 
 * __Planning__ 
-At this stage I identified the key stages for the project and some of the initial task that I wouls carry out as I worked towards completion. Old school pen and paper approach prior to typing up my work.
+At this stage I identified the key stages for the project and some of the initial task that I would carry out as I worked towards completion. Old school pen and paper approach prior to typing up my work.
 
 * __Break out of Tasks__
 This is my list of smaller tasks and probaby the bulk of the work.
@@ -50,10 +50,9 @@ Discussion of the data set, its history. And it's importance in data analytics??
 Ronald Fisher (1890-1962) was a British Statistician and Geneticist. He is most famous for developing methods of 
 multivariate analysis. He had a keen interest in genetics and applied his training in statistics to the Eugenics field including work on Charles Darmins theory on natural selection. [1]
 
-He is credited with fonding the Cambridge University Eugenics Society. In 1936, while Galton Professor of Eugenics at University College London he first introducted the Iris Flower Data Set in his paper "The use of multiple measurements in taxomony problems".[1]
+He is credited with founding the Cambridge University Eugenics Society. In 1936, while Galton Professor of Eugenics at University College London he first introducted the Iris Flower Data Set in his paper "The use of multiple measurements in taxomony problems".[1]
 
-The data set contains 50 samples from each of the three species of Iris (Iris Setosa, Iris Virginica and Iris Versicolor).
-The data set describes particular biological characteristics of various types of Iris flower. [2] For each sample the length and width of the Sepals and Petals were measured. 
+The data set is sometimes called Andersons Iris Flower Data Set, because it was collected by Edgar Anderson to quantify the morphologic varations of Iris flower. The data set contains 50 samples from each of the three species of Iris (Iris Setosa, Iris Virginica and Iris Versicolor)[2]. The data set describes particular biological characteristics of various types of Iris flower. [3] For each sample the length and width of the Sepals and Petals were measured. 
 
 The data set is widely used across the computer sciences including use in data minng and analytics.
 
@@ -90,11 +89,13 @@ How could I apply this type of analysis to my work in procurement?
 [1] Encyclopaedia Briannica. Sir Ronald Alymer Fisher.
 https://www.britannica.com/biography/Ronald-Aylmer-Fisher
 
-[2] Techopedia. Iris Flower Data Set.
-https://www.techopedia.com/definition/32880/iris-flower-data-set
-
+[2] Wikipedia. Iris Flower Data Set.
 https://en.wikipedia.org/wiki/Iris_flower_data_set
 
+[3] Techopedia. Iris Flower Data Set.
+https://www.techopedia.com/definition/32880/iris-flower-data-set
 
+https://www.kaggle.com/mathewnik90/machinelearning-helloworld-with-iris-full-analysis
+https://wr.informatik.uni-hamburg.de/_media/teaching/wintersemester_2016_2017/bd-uebung-02.pdf
 https://www2.le.ac.uk/offices/ld/resources/numerical-data/averages
 
