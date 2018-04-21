@@ -80,6 +80,27 @@ The mode is the value that occurs with the greatest frequency in a dataest (Univ
 
 ### Find the lowest number in each column.
 
+I went from this:
+meanseplen = np.mean(seplen) # Mean of the Sepal Length.
+meansepwid = np.mean(sepwid) # Mean of the Sepal Width.
+meanpetlen = np.mean(petlen) # Mean of the Petal Length.
+meanpetwid = np.mean(petwid) # Mean of the Petal Width.
+
+print("Average Sepal Length is:", meanseplen)
+print("Average Sepal Width is:", meansepwid)
+print("Average Petal Length is:", meanpetlen)
+print("Average Petal Width is:", meanpetwid)
+
+To this:
+def meanall(n):
+  ans = np.mean(n)
+  return ans
+
+print("Average Sepal Length is:", meanall(seplen))
+print("Average Sepal Width is:", meanall(sepwid))
+print("Average Petal Length is:", meanall(petlen))
+print("Average Petal Width is:", meanall(petwid))  
+
 ## Conclusions.
 What are the real world applications for similar types of analysis? 
 How could I apply this type of analysis to my work in procurement?
@@ -98,4 +119,6 @@ https://www.techopedia.com/definition/32880/iris-flower-data-set
 https://www.kaggle.com/mathewnik90/machinelearning-helloworld-with-iris-full-analysis
 https://wr.informatik.uni-hamburg.de/_media/teaching/wintersemester_2016_2017/bd-uebung-02.pdf
 https://www2.le.ac.uk/offices/ld/resources/numerical-data/averages
+
+https://nbviewer.jupyter.org/github/ianmcloughlin/python-fundamentals-notes/blob/master/functions-modules.ipynb#
 
