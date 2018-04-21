@@ -122,3 +122,4 @@ https://www2.le.ac.uk/offices/ld/resources/numerical-data/averages
 
 https://nbviewer.jupyter.org/github/ianmcloughlin/python-fundamentals-notes/blob/master/functions-modules.ipynb#
 
+http://patrickhoey.com/downloads/Computer_Science/03_Patrick_Hoey_Data_Visualization_Dataset_paper.pdf
