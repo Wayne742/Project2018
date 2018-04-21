@@ -15,64 +15,65 @@ petlen = data[:,2] # The third column of values is the Petal Length.
 petwid = data[:,3] # The fourth column of values is the Petal Width.
 
 # Calculate the average/mean of the values in each column.
-meanseplen = np.mean(seplen) # Mean of the Sepal Length.
-meansepwid = np.mean(sepwid) # Mean of the Sepal Width.
-meanpetlen = np.mean(petlen) # Mean of the Petal Length.
-meanpetwid = np.mean(petwid) # Mean of the Petal Width.
+def meanall(n):
+  ans = np.mean(n)
+  return ans
 
 # Find the maximum value in each column.
-maxseplen = np.max(seplen) # Maximum of the Sepal Length.
-maxsepwid = np.max(sepwid) # Maximum of the Sepal Width.
-maxpetlen = np.max(petlen) # Maximum of the Petal Length.
-maxpetwid = np.max(petwid) # Maximum of the Petal Width.
+def maxall(n):
+  ans = np.max(n)
+  return ans  
 
 # Find the minimum value in each column.
-minseplen = np.min(seplen) # Minimum of the Sepal Length.
-minsepwid = np.min(sepwid) # Minimum of the Sepal Width.
-minpetlen = np.min(petlen) # Minimum of the Petal Length.
-minpetwid = np.min(petwid) # Minimum of the Petal Width.
+def minall(n):
+  ans = np.min(n)
+  return ans
 
 # Calculate the Standard Deviation (Std Dev) of each column.
-stdseplen = np.std(seplen) # Std Dev of Sepal Length.
-stdsepwid = np.std(sepwid) # Std Dev of Sepal Width.
-stdpetlen = np.std(petlen) # Std Dev of Petal Length.
-stdpetwid = np.std(petwid) # Std Dev of Petal Width.
+def stdall(n):
+  ans = np.std(n)
+  return ans
 
+# Calculate the Sum of the values in each column.
+def sumall(n):
+  ans = np.sum(n)
+  return ans  
+ 
 print("This is the analysis of the complete data set.")
 print("The total number of rows in the data set is:" , np.count_nonzero(seplen))
-print("")
+print("\n")
 
 print("Analysis of Sepal Length")
-print("Average Sepal Length is:", meanseplen)
-print("The Maximum Sepal Length is:" , maxseplen)
-print("The Minimum Sepal Length is:" , minseplen)
-print("The Standard Deviation of the Sepal Length is:" , stdpetlen)
-print("The Sum for all Sepal Lengths is:" , sumseplen)
-print("")
+print("Average Sepal Length is:", meanall(seplen))
+print("The Maximum Sepal Length is:" , maxall(seplen))
+print("The Minimum Sepal Length is:" , minall(seplen))
+print("The Standard Deviation of the Sepal Length is:" , stdall(seplen))
+print("The Sum for all Sepal Lengths is:" , sumall(seplen))
+print("\n")
 
 print("Analysis of Sepal Width")
-print("Average Sepal Width is:", meansepwid)
-print("The Maximum Sepal Width is:" , maxsepwid)
-print("The Minimum Sepal Width is:" , minsepwid)
-print("The Standard Deviation of the Sepal Width is:" , stdsepwid)
-print("The Sum for all Sepal Widths is:" , sumsepwid)
-print("")
+print("Average Sepal Width is:", meanall(sepwid))
+print("The Maximum Sepal Width is:" , maxall(sepwid))
+print("The Minimum Sepal Width is:" , minall(sepwid))
+print("The Standard Deviation of the Sepal Width is:" , stdall(sepwid))
+print("The Sum for all Sepal Widths is:" , sumall(sepwid))
+print("\n")
 
 print("Analysis of Petal Length")
-print("Average Petal Length is:", meanpetlen)
-print("The Maximum Petal Length is:" , maxpetlen)
-print("The Minimum Petal Length is:" , minpetlen)
-print("The Standard Deviation of the Petal Length is:" , stdpetlen)
-print("The Sum for all Petal Lengths is:" , sumseplen)
-print("")
+print("Average Petal Length is:", meanall(petlen))
+print("The Maximum Petal Length is:" , maxall(petlen))
+print("The Minimum Petal Length is:" , minall(petlen))
+print("The Standard Deviation of the Petal Length is:" , stdall(petlen))
+print("The Sum for all Petal Lengths is:" , sumall(seplen))
+print("\n")
 
 print("Analysis of Petal Width")
-print("Average Petal Width is:", meanpetwid)
-print("The Maximum Petal Width is:" , maxpetwid)
-print("The Minimum Petal Width is:" , minpetwid)
-print("The Standard Deviation of the Petal Width is:" , stdpetwid)
-print("The Sum for all Petal Widths is:" , sumpetwid)
-print("")
+print("Average Petal Width is:", meanall(petwid))
+print("The Maximum Petal Width is:" , maxall(petwid))
+print("The Minimum Petal Width is:" , minall(petwid))
+print("The Standard Deviation of the Petal Width is:" , stdall(petwid))
+print("The Sum for all Petal Widths is:" , sumall(petwid))
+print("\n")
 
 
 
