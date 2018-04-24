@@ -56,6 +56,18 @@ The data set is sometimes called Andersons Iris Flower Data Set, because it was 
 
 The data set is widely used across the computer sciences including use in data minng and analytics.
 
+### Python and the Python Libraries.
+The programme I used to analyse the Iris Folwer data set is known as Python. Python is a programming language used 
+for a variety of applcationts throughtout the IT industry and is described by the Python Foundation as "an interpreted, 
+object oriented, high-level programming language". [4]
+
+"Python is useful for accomplishing real-world task" [5] and can be found in several domains including 
+Systems Programming, GUI's, Internet Scripting, Numeric and Scientific Programming, and Database Programming. [5]
+The language is used by a multitude of IT industry leaders including, Google, Industrial Light and Magic, Jet Propulsion
+Labs, and the ESRI. [5]
+
+
+
 ## Part 2.
 My work on the data set. What I did with the data, e.g sum, mean, median, etc.
 My analysis of the data set is quite rudimentary. I have chosen to apply the following mathmatical operation;
@@ -115,6 +127,12 @@ https://en.wikipedia.org/wiki/Iris_flower_data_set
 
 [3] Techopedia. Iris Flower Data Set.
 https://www.techopedia.com/definition/32880/iris-flower-data-set
+
+[4] Python Software Foundation. What is Python. Executive Summary.
+https://www.python.org/doc/essays/blurb/
+
+[5] Learning Python. Mark Lutz.
+Pages (9 - 10) (11 - 14).
 
 https://www.kaggle.com/mathewnik90/machinelearning-helloworld-with-iris-full-analysis
 https://wr.informatik.uni-hamburg.de/_media/teaching/wintersemester_2016_2017/bd-uebung-02.pdf
