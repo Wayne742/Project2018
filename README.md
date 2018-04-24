@@ -59,14 +59,15 @@ The data set is widely used across the computer sciences including use in data m
 ### Python and the Python Libraries.
 The programme I used to analyse the Iris Folwer data set is known as Python. Python is a programming language used 
 for a variety of applcationts throughtout the IT industry and is described by the Python Foundation as "an interpreted, 
-object oriented, high-level programming language". [4]
+object oriented, high-level programming language"[4].
 
 "Python is useful for accomplishing real-world task" [5] and can be found in several domains including 
 Systems Programming, GUI's, Internet Scripting, Numeric and Scientific Programming, and Database Programming. [5]
 The language is used by a multitude of IT industry leaders including, Google, Industrial Light and Magic, Jet Propulsion
 Labs, and the ESRI. [5]
 
-
+In analysing the data set I have used two of the modules for the Python programmng language standard library. Python comes
+with a very extensive library of modules. Many of these modules provide standardised solutions to programming problems[6].
 
 ## Part 2.
 My work on the data set. What I did with the data, e.g sum, mean, median, etc.
@@ -133,6 +134,10 @@ https://www.python.org/doc/essays/blurb/
 
 [5] Learning Python. Mark Lutz.
 Pages (9 - 10) (11 - 14).
+
+[6] Python Software Foundation. The Python Standard Library. 
+https://docs.python.org/2/library/
+
 
 https://www.kaggle.com/mathewnik90/machinelearning-helloworld-with-iris-full-analysis
 https://wr.informatik.uni-hamburg.de/_media/teaching/wintersemester_2016_2017/bd-uebung-02.pdf
