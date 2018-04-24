@@ -69,6 +69,18 @@ Labs, and the ESRI. [5]
 In analysing the data set I have used two of the modules for the Python programmng language standard library. Python comes
 with a very extensive library of modules. Many of these modules provide standardised solutions to programming problems[6].
 
+### Anaylsis by Others.
+There appears to be ample amounts of analysis using the Iris Flower data set. After carrying out a couple of Google searches
+I found three sets of analysis of note.
+
+1. This analyst uses the data set to train and test a "Classifier" [7]. This work appears to have been carried out using the 
+R programming language. I thought this was interesting as it showed how a well known and old (1936) data set is being used
+in the development of machine learning. Something I'm sure Fisher wouldn't have imagined when he used the data set.
+
+2. Statistical Analysis of the Iris Flower Data Set by Patrick Hoey[8]. The goal of this analyst was to create predictors
+based on the analysis of the data set. He used Java as the programming language and 
+
+
 ## Part 2.
 My work on the data set. What I did with the data, e.g sum, mean, median, etc.
 My analysis of the data set is quite rudimentary. I have chosen to apply the following mathmatical operation;
@@ -138,6 +150,14 @@ Pages (9 - 10) (11 - 14).
 [6] Python Software Foundation. The Python Standard Library. 
 https://docs.python.org/2/library/
 
+[7] Data Analysis - Iris dataset[sic] 
+https://www.kaggle.com/sridharcr/data-analysis-iris-dataset
+
+[8] Statistical Analysis of the Iris Flower Data Set. Patrick S Hoey.
+http://patrickhoey.com/downloads/Computer_Science/03_Patrick_Hoey_Data_Visualization_Dataset_paper.pdf
+
+The Shape of data. 
+https://shapeofdata.wordpress.com/2013/10/01/case-study-1-iris/
 
 https://www.kaggle.com/mathewnik90/machinelearning-helloworld-with-iris-full-analysis
 https://wr.informatik.uni-hamburg.de/_media/teaching/wintersemester_2016_2017/bd-uebung-02.pdf
@@ -145,4 +165,3 @@ https://www2.le.ac.uk/offices/ld/resources/numerical-data/averages
 
 https://nbviewer.jupyter.org/github/ianmcloughlin/python-fundamentals-notes/blob/master/functions-modules.ipynb#
 
-http://patrickhoey.com/downloads/Computer_Science/03_Patrick_Hoey_Data_Visualization_Dataset_paper.pdf
