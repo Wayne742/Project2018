@@ -75,6 +75,34 @@ print("The Standard Deviation of the Petal Width is:" , stdall(petwid))
 print("The Sum for all Petal Widths is:" , sumall(petwid))
 print("\n")
 
+# Plotting Histogram for Sepal Lenght
+plt.hist(seplen)
+plt.xlabel('Sepal Length')
+plt.ylabel('Count')
+plt.title('Histogram of Sepal Length')
+# plt.show()I 'commented' this command out, because it left my PC hanging for ages!
+# According to my Google searches there is an issue with integrating event loops. See link.
+# https://github.com/ipython/ipython/issues/9659
 
+# Plotting Histogram for Sepal Width
+plt.hist(sepwid)
+plt.xlabel('Sepal Width')
+plt.ylabel('Count')
+plt.title('Histogram of Sepal Width')
+# plt.show()
+
+# Plotting Histogram for Petal Lenght
+plt.hist(petlen)
+plt.xlabel('Petal Length')
+plt.ylabel('Count')
+plt.title('Histogram of Petal Length')
+# plt.show()
+
+# Plotting Histogram for Petal Width
+plt.hist(petwid)
+plt.xlabel('Petal Width')
+plt.ylabel('Count')
+plt.title('Histogram of Petal Width')
+# plt.show()
 
 
