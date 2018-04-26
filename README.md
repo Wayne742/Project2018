@@ -126,6 +126,11 @@ print("Average Sepal Width is:", meanall(sepwid))
 print("Average Petal Length is:", meanall(petlen))
 print("Average Petal Width is:", meanall(petwid))  
 
+### Histograms.
+
+![Histogram](seplen_hist.png)
+
+
 ## Conclusions.
 What are the real world applications for similar types of analysis? 
 How could I apply this type of analysis to my work in procurement?
