@@ -105,4 +105,9 @@ plt.ylabel('Count')
 plt.title('Histogram of Petal Width')
 # plt.show()
 
-
+# Plot a Scatter Chart of the data set 
+plt.scatter(seplen, sepwid, petlen, c=colors)
+plt.xlabel('X')
+plt.ylabel('Y')
+plt.title('Scatter Chart of Iris Flower Data Set')
+# plt.show()
