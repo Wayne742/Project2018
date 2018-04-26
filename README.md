@@ -128,7 +128,7 @@ print("Average Petal Width is:", meanall(petwid))
 
 ### Histograms.
 
-![Histogram](seplen_hist.png)
+![Histogram](https://github.com/Wayne742/Project2018/blob/master/Seplen_Hist.png)
 
 
 ## Conclusions.
