@@ -163,5 +163,11 @@ https://www.kaggle.com/mathewnik90/machinelearning-helloworld-with-iris-full-ana
 https://wr.informatik.uni-hamburg.de/_media/teaching/wintersemester_2016_2017/bd-uebung-02.pdf
 https://www2.le.ac.uk/offices/ld/resources/numerical-data/averages
 
+plotting Histograms
+https://pythonspot.com/matplotlib-histogram/
+
+plotting scatter charts 
+https://pythonspot.com/matplotlib-scatterplot/
+
 https://nbviewer.jupyter.org/github/ianmcloughlin/python-fundamentals-notes/blob/master/functions-modules.ipynb#
 
