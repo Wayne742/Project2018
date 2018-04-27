@@ -92,7 +92,7 @@ My analysis of the data set is quite rudimentary. I have chosen to apply the fol
 I have summed each column of numbers. For example the sum of the Sepal Lengths is....
 
 ### Count.
-Counted the total number of lines in hte data set.
+Counted the total number of lines in the data set.
 
 ### Mean.
 The mean is the most commonly used mathimatical measure of average (University of Leicester, 2018).
@@ -108,26 +108,43 @@ The mode is the value that occurs with the greatest frequency in a dataest (Univ
 
 ### Find the lowest number in each column.
 
+## Writting the Script.
+When I started to write the script for this project I began with importing NumPy and matplotlib. I then used read the data
+into an array that I could use with both modules. These are the line of code for that firs part;
+
+# Imports the Python module numpy.<br/>
+import numpy as np<br/>
+# Imports the Python module pyplot.<br/>
+import matplotlib.pyplot as plt <br/>
+# Reads the data into array.<br/>
+data = np.genfromtxt('data/iris.csv' , delimiter=',')<br/>
+
+Then I created four variables for each column of the Iris Flower data set. Below is the variable Sepal Length and a brief
+description of what each part of hte code does.
+
+seplen = data[:,0] # The first column of values is the Sepal Length.<br/>
+
+
 I went from this:
-meanseplen = np.mean(seplen) # Mean of the Sepal Length.  
-meansepwid = np.mean(sepwid) # Mean of the Sepal Width.  
-meanpetlen = np.mean(petlen) # Mean of the Petal Length.
-meanpetwid = np.mean(petwid) # Mean of the Petal Width.
+meanseplen = np.mean(seplen) # Mean of the Sepal Length.<br?>  
+meansepwid = np.mean(sepwid) # Mean of the Sepal Width.<br/>  
+meanpetlen = np.mean(petlen) # Mean of the Petal Length.<br/>
+meanpetwid = np.mean(petwid) # Mean of the Petal Width.<br/>
 
-print("Average Sepal Length is:", meanseplen)
-print("Average Sepal Width is:", meansepwid)
-print("Average Petal Length is:", meanpetlen)
-print("Average Petal Width is:", meanpetwid)
+print("Average Sepal Length is:", meanseplen)<br/>
+print("Average Sepal Width is:", meansepwid)<br/>
+print("Average Petal Length is:", meanpetlen)<br/>
+print("Average Petal Width is:", meanpetwid)<br/>
 
-To this:
-def meanall(n):
-  ans = np.mean(n)
-  return ans
+To this:<br/>
+def meanall(n):<br/>
+  ans = np.mean(n)<br/>
+  return ans<br/>
 
-print("Average Sepal Length is:", meanall(seplen))
-print("Average Sepal Width is:", meanall(sepwid))
-print("Average Petal Length is:", meanall(petlen))
-print("Average Petal Width is:", meanall(petwid))  
+print("Average Sepal Length is:", meanall(seplen))<br/>
+print("Average Sepal Width is:", meanall(sepwid))<br/>
+print("Average Petal Length is:", meanall(petlen))<br/>
+print("Average Petal Width is:", meanall(petwid))<br/>  
 
 ### Histograms.
 For each columns in the Iris Flower data set I have included a short script to generate a Histogram. A Histogram is a visual representation of the distribution of numercial data. It is similar in apperance to a bar chart and was first intorduced by the mathematician Karl Pearson. Histrograms give a rough sense of the density of the underlying distribution of the data.[10] 
@@ -137,11 +154,11 @@ to generate the Histograms is shown below. The script shown generates a Histogra
 seplen to call out the relevant data from the data set. I repeated these lines of script for each column, Sepal Width, Petal Length and Petal Width. I updated the script with the required variable and changed the chart title and the axis label. 
 
 ### Plotting the Histogram for Sepal Lenght.
-plt.hist(seplen) # The function to generate the Histogram.
-plt.xlabel('Sepal Length') # Labels the X axis of the Histogram.
-plt.ylabel('Count') # Labels the Y axis of the Histogram.
-plt.title('Histogram of Sepal Length') # Inserts a title.
-plt.show() # This line of code tells python to display the generated image.
+plt.hist(seplen) # The function to generate the Histogram.<br/>
+plt.xlabel('Sepal Length') # Labels the X axis of the Histogram.<br/>
+plt.ylabel('Count') # Labels the Y axis of the Histogram.<br/>
+plt.title('Histogram of Sepal Length') # Inserts a title.<br/>
+plt.show() # This line of code tells python to display the generated image.<br/>
 
 ![Histogram](https://github.com/Wayne742/Project2018/blob/master/Seplen_Hist.png)
 
