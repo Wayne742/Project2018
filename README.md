@@ -66,8 +66,11 @@ Systems Programming, GUI's, Internet Scripting, Numeric and Scientific Programmi
 The language is used by a multitude of IT industry leaders including, Google, Industrial Light and Magic, Jet Propulsion
 Labs, and the ESRI. [5]
 
-In analysing the data set I have used two of the modules for the Python programmng language standard library. Python comes
-with a very extensive library of modules. Many of these modules provide standardised solutions to programming problems[6].
+In analysing the data set I have used two of the modules for the Python programmng language standard library. Namely "Numpy" and  Python comes with a very extensive library of modules. Many of these modules provide standardised solutions to programming problems[6].
+
+**NumPy** is a library of functions used for scientific computing.
+
+**matplotlib.py** is a collection of command style functions that are used to generate visual representations of numercial data.
 
 ### Anaylsis by Others.
 There appears to be ample amounts of analysis using the Iris Flower data set. After carrying out a couple of Google searches
@@ -127,8 +130,26 @@ print("Average Petal Length is:", meanall(petlen))
 print("Average Petal Width is:", meanall(petwid))  
 
 ### Histograms.
+For each columns in the Iris Flower data set I have included a short script to generate a Histogram. A Histogram is a visual representation of the distribution of numercial data. It is similar in apperance to a bar chart and was first intorduced by the mathematician Karl Pearson. Histrograms give a rough sense of the density of the underlying distribution of the data.[10] 
+
+In order to generate the Histograms I used the python library "matplotlib mentioned in Part 1. An example of the script used 
+to generate the Histograms is shown below. The script shown generates a Histogram of the Sepal Lengths and uses the variable
+seplen to call out the relevant data from the data set. I repeated these lines of script for each column, Sepal Width, Petal Length and Petal Width. I updated the script with the required variable and changed the chart title and the axis label. 
+
+# Plotting Histogram for Sepal Lenght
+plt.hist(seplen) # The function to generate the Histogram.
+plt.xlabel('Sepal Length') # Labels the X axis of the Histogram.
+plt.ylabel('Count') # Labels the Y axis of the Histogram.
+plt.title('Histogram of Sepal Length') # Inserts a title.
+plt.show() # This line of code tells python to display the generated image.
 
 ![Histogram](https://github.com/Wayne742/Project2018/blob/master/Seplen_Hist.png)
+
+![Histogram](https://github.com/Wayne742/Project2018/blob/master/Sepwid_Hist.png)
+
+![Histogram](https://github.com/Wayne742/Project2018/blob/master/Petlen_Hist.png)
+
+![Histogram](https://github.com/Wayne742/Project2018/blob/master/Petwid_Hist.png)
 
 
 ## Conclusions.
@@ -167,6 +188,9 @@ https://shapeofdata.wordpress.com/2013/10/01/case-study-1-iris/
 https://www.kaggle.com/mathewnik90/machinelearning-helloworld-with-iris-full-analysis
 https://wr.informatik.uni-hamburg.de/_media/teaching/wintersemester_2016_2017/bd-uebung-02.pdf
 https://www2.le.ac.uk/offices/ld/resources/numerical-data/averages
+
+[10] Wikipedia. Histograms. 
+https://en.wikipedia.org/wiki/Histogram
 
 plotting Histograms
 https://pythonspot.com/matplotlib-histogram/
