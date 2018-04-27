@@ -109,8 +109,8 @@ The mode is the value that occurs with the greatest frequency in a dataest (Univ
 ### Find the lowest number in each column.
 
 I went from this:
-meanseplen = np.mean(seplen) # Mean of the Sepal Length.
-meansepwid = np.mean(sepwid) # Mean of the Sepal Width.
+meanseplen = np.mean(seplen) # Mean of the Sepal Length.  
+meansepwid = np.mean(sepwid) # Mean of the Sepal Width.  
 meanpetlen = np.mean(petlen) # Mean of the Petal Length.
 meanpetwid = np.mean(petwid) # Mean of the Petal Width.
 
