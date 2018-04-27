@@ -85,7 +85,7 @@ based on the analysis of the data set. He used Java as the programming language 
 
 
 ## Part 2.
-My work on the data set. What I did with the data, e.g sum, mean, median, etc.
+This section is about my work on the data set. What I did with the data, e.g sum, mean, median, etc.
 My analysis of the data set is quite rudimentary. I have chosen to apply the following mathmatical operation;
 
 ### Sum.
@@ -136,7 +136,7 @@ In order to generate the Histograms I used the python library "matplotlib mentio
 to generate the Histograms is shown below. The script shown generates a Histogram of the Sepal Lengths and uses the variable
 seplen to call out the relevant data from the data set. I repeated these lines of script for each column, Sepal Width, Petal Length and Petal Width. I updated the script with the required variable and changed the chart title and the axis label. 
 
-# Plotting Histogram for Sepal Lenght
+### Plotting the Histogram for Sepal Lenght.
 plt.hist(seplen) # The function to generate the Histogram.
 plt.xlabel('Sepal Length') # Labels the X axis of the Histogram.
 plt.ylabel('Count') # Labels the Y axis of the Histogram.
@@ -151,6 +151,20 @@ plt.show() # This line of code tells python to display the generated image.
 
 ![Histogram](https://github.com/Wayne742/Project2018/blob/master/Petwid_Hist.png)
 
+### Plotting a Scatter Plot.
+I also included a Scatter Plot of the data set. This caused me some difficulty. While the lines of code for the script
+were easy to find on the 'net' and it was fairly easy to understand what each line in hte script actully did my Scatter plot
+did not generate as I wanted. 
+
+Primarily the problem I had was that I wanted to plot each column and display each catrgory in a different colour. For example, Sepal Length would be Green and Sepal Width would be Red. However when I tried to run the script it 'crashed'.
+
+To overcome this I tried to build the plot up one object at a time. I started with just the Sepal Lenght in Red. And ran the 
+script, it worked perfectly. Then I added the Sepal Width, in Blue. Again the script ran fine. I continued to add the Petal
+Length, in Green. Again the script ran fine. Lastly I added the Petal Width in Yellow. This crashed! I don't know why but
+can only speculate that I'm trying to fit too much into the plot. When I take out one colour it seem to run fine although I 
+am concerned that my Scatter plot is not as densely populated as some of the others I've seen online. 
+
+![Scatter](https://github.com/Wayne742/Project2018/blob/master/Scatter.png)
 
 ## Conclusions.
 What are the real world applications for similar types of analysis? 
