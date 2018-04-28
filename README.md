@@ -131,9 +131,9 @@ data = This points the variable to the variable "data" I created earlier which g
 
 [:,0] = Creates a list and populates it with the data at index 0 i.e. the first column of numbers in the CSV file. This gives me all the numbers relating to the Sepal Length.
 
-After creating this variable I can use it to write a simple piece of code to get at the data for the Sepal Length.
+After creating this variable I can use it to write a simple piece of code to get at the data for the Sepal Length. For example if I wanted to display all the values for the Sepal Length all I need to do is type in the python command print(seplen) and I will get the following output;
 
-
+![screenshot](https://github.com/Wayne742/Project2018/blob/master/Screen_Shot_seplen_Print.png)
 
 I went from this:<br/>
 meanseplen = np.mean(seplen) # Mean of the Sepal Length.<br?>  
