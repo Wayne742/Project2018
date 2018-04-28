@@ -112,20 +112,30 @@ The mode is the value that occurs with the greatest frequency in a dataest (Univ
 When I started to write the script for this project I began with importing NumPy and matplotlib. I then used read the data
 into an array that I could use with both modules. These are the line of code for that firs part;
 
-# Imports the Python module numpy.<br/>
+### Imports the Python module numpy.<br/>
 import numpy as np<br/>
-# Imports the Python module pyplot.<br/>
+### Imports the Python module pyplot.<br/>
 import matplotlib.pyplot as plt <br/>
-# Reads the data into array.<br/>
+### Reads the data into array.<br/>
 data = np.genfromtxt('data/iris.csv' , delimiter=',')<br/>
 
-Then I created four variables for each column of the Iris Flower data set. Below is the variable Sepal Length and a brief
-description of what each part of hte code does.
+I created four variables for each column of the Iris Flower data set. Below is the variable Sepal Length and a brief
+description of what each part of the code does.
 
 seplen = data[:,0] # The first column of values is the Sepal Length.<br/>
 
+seplen = This is the variable name. It represents the Sepal Length. When I need to use the data relating to the Sepal Length
+I can use seplen.
 
-I went from this:
+data = This points the variable to the variable "data" I created earlier which generates a NumPy array with the data in the CSV file.
+
+[:,0] = Creates a list and populates it with the data at index 0 i.e. the first column of numbers in the CSV file. This gives me all the numbers relating to the Sepal Length.
+
+After creating this variable I can use it to write a simple piece of code to get at the data for the Sepal Length.
+
+
+
+I went from this:<br/>
 meanseplen = np.mean(seplen) # Mean of the Sepal Length.<br?>  
 meansepwid = np.mean(sepwid) # Mean of the Sepal Width.<br/>  
 meanpetlen = np.mean(petlen) # Mean of the Petal Length.<br/>
