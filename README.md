@@ -3,12 +3,17 @@ Programming and Scripting. End of Module Project 2018.
 Wayne Reilly.
 
 # Introduction.
-This project is based on Ronald Fisher's Iris data set. The project contains research regarding the data set and some analysis of the data set using the Python programming language.
+This project is based on Ronald Fisher's Iris data set. The project contains research regarding the data set and some basic analysis of the data set, carried out using the Python programming language.
 
-What is data analytics and why its important?
+This documnet is in two distinct sections. Part One is about my approach, project plan and a brief discussion on the data set including some analysis conducted by others.
+
+Part Two then deals with my work on the data set. How I wrote the scrips and the steps I took to complete the coding aspect of the project.
 
 ## Part 1.
-This README is in two distinct sections. The first one is primarily concerning my approach, project plan and discussion on the data set including analysis conducted by others.
+### Methodology / Approach.
+My approach for this project was exactly the same as the project itself. I considered it as being two smaller projects, one about the data set and the second, working on the data set. I began my reserach into the data set by learning a little about Ronald Fisher himself. Then I moved onto the data set itself and looked at some uses of the data set, for example in Machine Learnng. In conjunction with conducting some preliminary research I set out a rough outline for my project. Once I had the basic structure in place I was able to begin work and fill out the project as it developed over the course of a couple of weeks.
+
+As I moved on to the second part of the project I wondered what analysis could I conduct and did a couple of searches. Having decided on what I would do with the data set, i.e. Sum all the columns, Find the Largest and Smallest numbers, etc. I tried them out, taking each one in turn and trying the script in ipython before saving it into my project2018 python file.  
 
 ### Project Plan.
 This is my overall project plan. This has seven stages and as with most projects it is likely that it will change as I work and will not necessarialy be carried out in the order listed. Throughout the project intermittment reviews of progress and tasks outstanding will be carried out.
@@ -42,10 +47,8 @@ This is my list of smaller tasks and probaby the bulk of the work.
 * __Write up Introduction and Conclusions__
 
 * __Review and Edit__
-  
 
-### Methodology / Approach.
-Discussion of the data set, its history. And it's importance in data analytics????
+
 ### Ronald Fisher and the Iris Flower Data Set.
 Ronald Fisher (1890-1962) was a British Statistician and Geneticist. He is most famous for developing methods of 
 multivariate analysis. He had a keen interest in genetics and applied his training in statistics to the Eugenics field including work on Charles Darmins theory on natural selection. [1]
@@ -81,15 +84,17 @@ R programming language. I thought this was interesting as it showed how a well k
 in the development of machine learning. Something I'm sure Fisher wouldn't have imagined when he used the data set.
 
 2. Statistical Analysis of the Iris Flower Data Set by Patrick Hoey[8]. The goal of this analyst was to create predictors
-based on the analysis of the data set. He used Java as the programming language and 
+based on the analysis of the data set. He used Java as the programming language.
+
+3. THe Shape of Data. This site uses the Iris Flower data set as a teaching tool. The author of the site uses the data set as an example of how to structure data. Asserting that data scientists mostly work with unstructured data and learnng how data should be structured prior to analysis is all important[9].
 
 
 ## Part 2.
 This section is about my work on the data set. What I did with the data, e.g sum, mean, median, etc.
-My analysis of the data set is quite rudimentary. I have chosen to apply the following mathmatical operation;
+My analysis of the data set is quite rudimentary. I have chosen to apply the following mathmatical operations;
 
 ### Sum.
-I have summed each column of numbers. For example the sum of the Sepal Lengths is....
+I have summed each column of numbers. For example the sum of the Sepal Lengths is 5.84333333
 
 ### Count.
 Counted the total number of lines in the data set.
@@ -107,6 +112,9 @@ The mode is the value that occurs with the greatest frequency in a dataest (Univ
 ### Find the Highest number in each column.
 
 ### Find the lowest number in each column.
+
+### Calculate the Variance.
+Calculates the variance between the highest and lowest value in each column.
 
 ## Writting the Script.
 When I started to write the script for this project I began with importing NumPy and matplotlib. I then used read the data
@@ -201,8 +209,7 @@ am concerned that my Scatter plot is not as densely populated as some of the oth
 ![Scatter](https://github.com/Wayne742/Project2018/blob/master/Scatter.png)
 
 ## Conclusions.
-What are the real world applications for similar types of analysis? 
-How could I apply this type of analysis to my work in procurement?
+Reflecting on this project I feel I have learned alot. In particular in how to comment on my code and update Git. I can see how Git can be used by dispersed teams or even co-located teams to work on much larger projects. I also think that the project has helped me develop as a coder, in that I moved from writing lines and lines of code to achieve a task to writing a function that did the same thing.
 
 ## References.
 
@@ -230,22 +237,18 @@ https://www.kaggle.com/sridharcr/data-analysis-iris-dataset
 [8] Statistical Analysis of the Iris Flower Data Set. Patrick S Hoey.
 http://patrickhoey.com/downloads/Computer_Science/03_Patrick_Hoey_Data_Visualization_Dataset_paper.pdf
 
-The Shape of data. 
+[9] The Shape of data. 
 https://shapeofdata.wordpress.com/2013/10/01/case-study-1-iris/
-
-https://www.kaggle.com/mathewnik90/machinelearning-helloworld-with-iris-full-analysis
-https://wr.informatik.uni-hamburg.de/_media/teaching/wintersemester_2016_2017/bd-uebung-02.pdf
-https://www2.le.ac.uk/offices/ld/resources/numerical-data/averages
 
 [10] Wikipedia. Histograms. 
 https://en.wikipedia.org/wiki/Histogram
 
-plotting Histograms
+[11] Plotting Histograms
 https://pythonspot.com/matplotlib-histogram/
 
-plotting scatter charts 
+[12] Plotting scatter charts 
 https://pythonspot.com/matplotlib-scatterplot/
 
-Writing functions.
+[13] Writing functions.
 https://nbviewer.jupyter.org/github/ianmcloughlin/python-fundamentals-notes/blob/master/functions-modules.ipynb#
 
