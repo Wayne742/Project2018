@@ -139,7 +139,7 @@ I used the same process to create variables for Sepal Width, Petal Length and Pe
 
 As I continued to write my code I began with very basic and cumbersome code lines. Shown here;<br/>
 meanseplen = np.mean(seplen) # Mean of the Sepal Length.<br?>  
-meansepwid = np.mean(sepwid) # Mean of the Sepal Width.<br/>  
+meansepwid = np.mean(sepwid) # Mean of the Sepal Width.<br/>
 meanpetlen = np.mean(petlen) # Mean of the Petal Length.<br/>
 meanpetwid = np.mean(petwid) # Mean of the Petal Width.<br/>
 
@@ -148,7 +148,8 @@ print("Average Sepal Width is:", meansepwid)<br/>
 print("Average Petal Length is:", meanpetlen)<br/>
 print("Average Petal Width is:", meanpetwid)<br/>
 
-It eventually dawned on me to use Functions, and after several online searches I came up with this<br/>
+It eventually dawned on me to use a Function, and after some online searches and a review of the course video on writing functions, I came up with this<br/>
+This is the function to get the Mean of all the numbers in any column. By calling the function in the print statement below and replacing the n in the brackets with any of the four variables I created I can get the mean for the column.<br/> 
 def meanall(n):<br/>
   ans = np.mean(n)<br/>
   return ans<br/>
@@ -157,6 +158,10 @@ print("Average Sepal Length is:", meanall(seplen))<br/>
 print("Average Sepal Width is:", meanall(sepwid))<br/>
 print("Average Petal Length is:", meanall(petlen))<br/>
 print("Average Petal Width is:", meanall(petwid))<br/>  
+
+Here is a screenshot of the output for the meanall function when the (n) is repalced with the variable seplen.<br/>
+![meanseplen](https://github.com/Wayne742/Project2018/blob/master/screenshot_mean_seplen.png)
+
 
 ### Histograms.
 For each columns in the Iris Flower data set I have included a short script to generate a Histogram. A Histogram is a visual representation of the distribution of numercial data. It is similar in apperance to a bar chart and was first intorduced by the mathematician Karl Pearson. Histrograms give a rough sense of the density of the underlying distribution of the data.[10] 
@@ -241,5 +246,6 @@ https://pythonspot.com/matplotlib-histogram/
 plotting scatter charts 
 https://pythonspot.com/matplotlib-scatterplot/
 
+Writing functions.
 https://nbviewer.jupyter.org/github/ianmcloughlin/python-fundamentals-notes/blob/master/functions-modules.ipynb#
 
