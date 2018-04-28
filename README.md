@@ -135,7 +135,9 @@ After creating this variable I can use it to write a simple piece of code to get
 
 ![screenshot](https://github.com/Wayne742/Project2018/blob/master/Screen_Shot_seplen_Print.png)
 
-I went from this:<br/>
+I used the same process to create variables for Sepal Width, Petal Length and Petal Width.
+
+As I continued to write my code I began with very basic and cumbersome code lines. Shown here;<br/>
 meanseplen = np.mean(seplen) # Mean of the Sepal Length.<br?>  
 meansepwid = np.mean(sepwid) # Mean of the Sepal Width.<br/>  
 meanpetlen = np.mean(petlen) # Mean of the Petal Length.<br/>
@@ -146,7 +148,7 @@ print("Average Sepal Width is:", meansepwid)<br/>
 print("Average Petal Length is:", meanpetlen)<br/>
 print("Average Petal Width is:", meanpetwid)<br/>
 
-To this:<br/>
+It eventually dawned on me to use Functions, and after several online searches I came up with this<br/>
 def meanall(n):<br/>
   ans = np.mean(n)<br/>
   return ans<br/>
